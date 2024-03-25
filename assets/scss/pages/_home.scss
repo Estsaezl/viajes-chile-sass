@@ -1,0 +1,30 @@
+.quienes-somos {
+    align-items: center;
+
+    &__img {
+        border-radius: 10px;
+    }
+}
+
+.testimonios {
+    &__img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
+
+.contacto {
+
+    &__information {
+        display: flex;
+        margin-bottom: $sp2;
+        align-items: baseline;
+    }
+
+    &__brand {
+        margin-right: $sp3;
+        font-size: $fs3;
+    }
+
+}

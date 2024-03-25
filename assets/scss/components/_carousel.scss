@@ -1,0 +1,16 @@
+.carousel {
+    max-height: 500px;
+    min-height: 300px;
+
+    &-inner {
+        max-height: 500px;
+        min-height: 300px;
+    }
+    &__img {
+        max-height: 500px;
+        min-height: 300px;
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+    }
+}

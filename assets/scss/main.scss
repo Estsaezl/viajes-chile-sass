@@ -1,0 +1,17 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+//1. abstracts
+@import './abstracts/variables', './abstracts/custom_bootstrap';
+//2. vendor
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+//3. base
+@import './base/reset', './base/typography';
+//4. layout
+//5. components
+@import './components/carousel', './components/cards';
+//6. pages
+@import './pages/home';
+//7. themes
+
